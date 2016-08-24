@@ -1,0 +1,2 @@
+g++ -c -I /usr/local/cuda-5.0/include/ main.cpp -o main.o
+g++ main.o -o host -L /usr/local/cuda-5.0/lib/ -L/usr/X11R6/lib -lm -lpthread -lX11 -lOpenCL -lrt
