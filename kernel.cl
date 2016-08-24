@@ -328,7 +328,7 @@ __kernel void mediana(__read_only  image2d_t img1,
         	pom+=B[k];
 
     	mb = k-1;
-		
+		'dodanie rgb
     	// samo argb                             r  g  b a
     	write_imageui(img2, (int2)(x,y), (uint4)(mr,mg,mb,255));
 	}
